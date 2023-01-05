@@ -641,8 +641,11 @@ body {
     justify-content: center;
     width: 30px;
     height: 30px;
+    background: #F9F9F9;
 }
-
+ .social-link + .social-link{
+    margin-left: 16px;
+}
 .footer .desc {
     flex-wrap: wrap;
     width: 350px;
