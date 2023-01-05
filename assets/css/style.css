@@ -46,7 +46,10 @@ a {
 :root {
     --primary-color: #0F1B4C;
 }
-
+body ,
+html{
+    scroll-behavior: smooth;
+}
 html {
     font-size: 62.5%;
 }
@@ -58,7 +61,7 @@ body {
 
 /* Header */
 .header {
-    height: 100vh;
+    height: calc(100vh - 90px);
     background: #E6F0FF;
     position: relative;
 }
