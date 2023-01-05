@@ -62,10 +62,16 @@ body {
     background: #E6F0FF;
     position: relative;
 }
-
+.fixed-header {
+    padding-top: 26px;
+    background: #E6F0FF;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
 .navbar {
     display: flex;
-    padding-top: 50px;
+    padding: 12px 0;
 }
 
 .navbar ul {
@@ -110,7 +116,7 @@ body {
 
 /* Hero */
 .hero {
-    margin-top: 130px;
+    padding-top: 130px;
 }
 
 .hero .info {
